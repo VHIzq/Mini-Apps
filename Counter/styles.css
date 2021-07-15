@@ -25,3 +25,13 @@ body{
 .button-container .btn:hover{
   background: orange;
 }
+@media(max-width:720px){
+  .button-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .button-container .btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

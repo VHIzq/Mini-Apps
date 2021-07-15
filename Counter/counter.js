@@ -2,7 +2,7 @@
 let count = 0;
 //select all the btns and value
 const value = document.querySelector("#value");
-const btns = document.querySelectorAll(".btn");
+const btns = document.querySelectorAll(".btn"); // lista anidada
 /* console.log(btns); */
 btns.forEach(function (btn){
   /* console.log(item); */
